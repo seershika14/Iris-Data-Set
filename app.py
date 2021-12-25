@@ -1,4 +1,4 @@
-import streamlit as st  
+import streamlit as st    
 import joblib
 model = joblib.load('Iris Data(1)')  
 st.title('Iris Flower Data')  
